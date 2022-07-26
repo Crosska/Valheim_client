@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="BytesRoad.Diag">
+      <HintPath>C:\Users\Crosska\Downloads\BytesRoad.NetSuit_2_0\BytesRoad.NetSuit_2_0\Bin\BytesRoad.Diag.dll</HintPath>
+    </Reference>
+    <Reference Include="BytesRoad.Net.Ftp">
+      <HintPath>C:\Users\Crosska\Downloads\BytesRoad.NetSuit_2_0\BytesRoad.NetSuit_2_0\Bin\BytesRoad.Net.Ftp.dll</HintPath>
+    </Reference>
+    <Reference Include="BytesRoad.Net.Sockets">
+      <HintPath>C:\Users\Crosska\Downloads\BytesRoad.NetSuit_2_0\BytesRoad.NetSuit_2_0\Bin\BytesRoad.Net.Sockets.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

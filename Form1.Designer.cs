@@ -28,66 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.directoryPathTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.chooseGameDirectoryButton = new System.Windows.Forms.Button();
             this.startGameButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.loadingUpdateProgressBar = new System.Windows.Forms.ProgressBar();
+            this.percentIconLabel = new System.Windows.Forms.Label();
+            this.autoDetectGamePathRadioButton = new System.Windows.Forms.RadioButton();
+            this.manualDetectGamePathRadioButton = new System.Windows.Forms.RadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.currentProcessibleFile = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // directoryPathTextBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Alegreya SC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(12, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 33);
-            this.textBox1.TabIndex = 0;
+            resources.ApplyResources(this.directoryPathTextBox, "directoryPathTextBox");
+            this.directoryPathTextBox.Name = "directoryPathTextBox";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Alegreya SC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 10);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Укажите путь к папке с игрой";
             // 
-            // button1
+            // chooseGameDirectoryButton
             // 
-            this.button1.Font = new System.Drawing.Font("Alegreya SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(261, 35);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Обзор";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chooseGameDirectoryButton, "chooseGameDirectoryButton");
+            this.chooseGameDirectoryButton.Name = "chooseGameDirectoryButton";
+            this.chooseGameDirectoryButton.UseVisualStyleBackColor = true;
+            this.chooseGameDirectoryButton.Click += new System.EventHandler(this.chooseGameDirectoryButton_Click_1);
             // 
             // startGameButton
             // 
-            this.startGameButton.Font = new System.Drawing.Font("Alegreya Sans SC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.startGameButton.Location = new System.Drawing.Point(12, 134);
+            resources.ApplyResources(this.startGameButton, "startGameButton");
             this.startGameButton.Name = "startGameButton";
-            this.startGameButton.Size = new System.Drawing.Size(323, 42);
-            this.startGameButton.TabIndex = 3;
-            this.startGameButton.Text = "Запуск игры";
             this.startGameButton.UseVisualStyleBackColor = true;
             this.startGameButton.Click += new System.EventHandler(this.startGameButton_Click);
             // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // loadingUpdateProgressBar
+            // 
+            resources.ApplyResources(this.loadingUpdateProgressBar, "loadingUpdateProgressBar");
+            this.loadingUpdateProgressBar.Maximum = 1000;
+            this.loadingUpdateProgressBar.Name = "loadingUpdateProgressBar";
+            // 
+            // percentIconLabel
+            // 
+            resources.ApplyResources(this.percentIconLabel, "percentIconLabel");
+            this.percentIconLabel.Name = "percentIconLabel";
+            // 
+            // autoDetectGamePathRadioButton
+            // 
+            resources.ApplyResources(this.autoDetectGamePathRadioButton, "autoDetectGamePathRadioButton");
+            this.autoDetectGamePathRadioButton.Checked = true;
+            this.autoDetectGamePathRadioButton.Name = "autoDetectGamePathRadioButton";
+            this.autoDetectGamePathRadioButton.TabStop = true;
+            this.autoDetectGamePathRadioButton.UseVisualStyleBackColor = true;
+            this.autoDetectGamePathRadioButton.CheckedChanged += new System.EventHandler(this.autoDetectGamePathRadioButton_CheckedChanged);
+            // 
+            // manualDetectGamePathRadioButton
+            // 
+            resources.ApplyResources(this.manualDetectGamePathRadioButton, "manualDetectGamePathRadioButton");
+            this.manualDetectGamePathRadioButton.Name = "manualDetectGamePathRadioButton";
+            this.manualDetectGamePathRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.directoryPathTextBox);
+            this.panel1.Controls.Add(this.chooseGameDirectoryButton);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Client.Properties.Resources._1653474759_8;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.autoDetectGamePathRadioButton);
+            this.panel2.Controls.Add(this.manualDetectGamePathRadioButton);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // currentProcessibleFile
+            // 
+            resources.ApplyResources(this.currentProcessibleFile, "currentProcessibleFile");
+            this.currentProcessibleFile.BackColor = System.Drawing.Color.Azure;
+            this.currentProcessibleFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.currentProcessibleFile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.currentProcessibleFile.Name = "currentProcessibleFile";
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(347, 188);
+            this.Controls.Add(this.currentProcessibleFile);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.percentIconLabel);
+            this.Controls.Add(this.loadingUpdateProgressBar);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.startGameButton);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Font = new System.Drawing.Font("Alegreya SC", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Клиент Valheim";
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,9 +159,18 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox directoryPathTextBox;
         private Label label1;
-        private Button button1;
+        private Button chooseGameDirectoryButton;
         private Button startGameButton;
+        private Label label2;
+        private ProgressBar loadingUpdateProgressBar;
+        private Label percentIconLabel;
+        private RadioButton autoDetectGamePathRadioButton;
+        private RadioButton manualDetectGamePathRadioButton;
+        private Panel panel1;
+        private PictureBox pictureBox1;
+        private Panel panel2;
+        private Label currentProcessibleFile;
     }
 }

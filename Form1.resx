@@ -57,4 +57,678 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="directoryPathTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 9.749998pt</value>
+  </data>
+  <data name="directoryPathTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="directoryPathTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="directoryPathTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;directoryPathTextBox.Name" xml:space="preserve">
+    <value>directoryPathTextBox</value>
+  </data>
+  <data name="&gt;&gt;directoryPathTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;directoryPathTextBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;directoryPathTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Укажите путь к папке с игрой</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chooseGameDirectoryButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 9.749998pt</value>
+  </data>
+  <data name="chooseGameDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 29</value>
+  </data>
+  <data name="chooseGameDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="chooseGameDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chooseGameDirectoryButton.Text" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="&gt;&gt;chooseGameDirectoryButton.Name" xml:space="preserve">
+    <value>chooseGameDirectoryButton</value>
+  </data>
+  <data name="&gt;&gt;chooseGameDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chooseGameDirectoryButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;chooseGameDirectoryButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="startGameButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 14.25pt</value>
+  </data>
+  <data name="startGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 424</value>
+  </data>
+  <data name="startGameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 47</value>
+  </data>
+  <data name="startGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="startGameButton.Text" xml:space="preserve">
+    <value>Войти на сервер</value>
+  </data>
+  <data name="&gt;&gt;startGameButton.Name" xml:space="preserve">
+    <value>startGameButton</value>
+  </data>
+  <data name="&gt;&gt;startGameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startGameButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startGameButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 368</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 24</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Прогресс обновления файлов</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="loadingUpdateProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 395</value>
+  </data>
+  <data name="loadingUpdateProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 23</value>
+  </data>
+  <data name="loadingUpdateProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;loadingUpdateProgressBar.Name" xml:space="preserve">
+    <value>loadingUpdateProgressBar</value>
+  </data>
+  <data name="&gt;&gt;loadingUpdateProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadingUpdateProgressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loadingUpdateProgressBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="percentIconLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="percentIconLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 12pt</value>
+  </data>
+  <data name="percentIconLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="percentIconLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 393</value>
+  </data>
+  <data name="percentIconLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 24</value>
+  </data>
+  <data name="percentIconLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="percentIconLabel.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;percentIconLabel.Name" xml:space="preserve">
+    <value>percentIconLabel</value>
+  </data>
+  <data name="&gt;&gt;percentIconLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;percentIconLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;percentIconLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 9.749998pt</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 23</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="autoDetectGamePathRadioButton.Text" xml:space="preserve">
+    <value>Автоматический поиск папки</value>
+  </data>
+  <data name="&gt;&gt;autoDetectGamePathRadioButton.Name" xml:space="preserve">
+    <value>autoDetectGamePathRadioButton</value>
+  </data>
+  <data name="&gt;&gt;autoDetectGamePathRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoDetectGamePathRadioButton.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;autoDetectGamePathRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 9.749998pt</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 3</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 23</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="manualDetectGamePathRadioButton.Text" xml:space="preserve">
+    <value>Ручная настройка папки</value>
+  </data>
+  <data name="&gt;&gt;manualDetectGamePathRadioButton.Name" xml:space="preserve">
+    <value>manualDetectGamePathRadioButton</value>
+  </data>
+  <data name="&gt;&gt;manualDetectGamePathRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;manualDetectGamePathRadioButton.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;manualDetectGamePathRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 67</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 125</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 240</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 87</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 32</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="currentProcessibleFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currentProcessibleFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 398</value>
+  </data>
+  <data name="currentProcessibleFile.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="currentProcessibleFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 17</value>
+  </data>
+  <data name="currentProcessibleFile.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="currentProcessibleFile.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="currentProcessibleFile.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;currentProcessibleFile.Name" xml:space="preserve">
+    <value>currentProcessibleFile</value>
+  </data>
+  <data name="&gt;&gt;currentProcessibleFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currentProcessibleFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;currentProcessibleFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>444, 483</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Alegreya SC, 8.999999pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8yqCn/MKjk/zCo//8vqMf/LKYXAAAAAP+o6SP/qua4/6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//8rv///+////ten//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5rb/qughAAAAAP8nsQ3/MKmu/zCo//8wqPX/L6hGAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8vpiv/MaXs/zGl//8xpaz/QJ8IAAAAAP+r
+        5lL/q+bv/6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm///d9f///////9Ty//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm8v+r5VgAAAAA/wCAAv8x
+        pJj/MaX//zGl9/8wo0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8zqg//M6LZ/zOi//8z
+        orD/M5kFAAAAAP+r5Xf/q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//8/v////////y+///q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vniAAAAAD/AP8B/zSilP8zov//M6Lt/zSjJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A
+        gAL/NJ6y/zSe//80nsb/JJIH////Af+s5pb/q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//tOn//////////////////7rq//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+WUAAAAAP8AgAL/M56u/zSe//80ntj/M5kKAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/NZtz/zWb//81m+b/M5kZAAAAAP+s5oT/q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//8rv///////////////////W8///q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5YAAAAAA/zOZCv81
+        m9L/NZv//zWblAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/O5Ma/zeY8v83mP//OZhIAAAAAP+s51b/q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm///f9f//////////////
+        ////9Pz//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6rmWgAAAAD/N5Yu/zaY+P83mP7/NZg+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/ziVo/84lf//N5WhAAAAAP+q
+        4yT/q+by/6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//9Pz///////////////////////+76///q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5vD/rekiAAAAAP83lX3/OJX//zmVy/8A/wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zqQNf85
+        kv7/OZL0/z2PGQAAAAD/q+a2/6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//u+v/////////////////////////////1PL//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vmuQAAAAD/OY4J/zmS4/85
+        kv//OpFYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP86jqL/O47//zuOhwAAAAD/q+ZS/6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//9z1/////////////////////////////+36//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//quVOAAAAAP87jmP/O47//zuOywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9AjBT/PIv3/zyL+v89jxn///8B/6rmzf+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//67n///6/v//////////////
+        ///////////////+////tOn//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r5v//q+b//6vm//+r
+        5v//q+b//6vm//+r5v//q+b//6vmz////wH/SZIH/zyL6f88i///O404AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/P4h2/z6I//8+iagAAAAA/6rmSP+r
+        5f//q+X//6vl//+r5f//q+X//6vl//+r5f//q+X//6vl//+r5f//q+X//6vl//+r5f//q+X//6vl///K
+        7////////////////////////////////////////9Lx//+r5f//q+X//6vl//+r5f//q+X//6vl//+r
+        5f//q+X//6vl//+r5f//q+X//6vl//+r5f//q+X//6vl//+r5f//q+ZGAAAAAP8/h4b/Poj//z6JlwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/z+Fxf8/
+        hf//QIZMAAAAAP+s4an/rOH//6zh//+s4f//rOH//6zh//+s4f//rOH//6zh//+s4f//rOH//6zh//+s
+        4f//rOH//6zh//+s4f//6vf///////////////////P7///z+//////////////x+v//rOH//6zh//+s
+        4f//rOH//6zh//+s4f//rOH//6zh//+s4f//rOH//6zh//+s4f//rOH//6zh//+s4f//rOH//6zgpgAA
+        AAD/PYUu/z+F//8/heb/AIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/zuJDf9Agvr/P4L1/zmOCf+q1Qz/rd33/63d//+t3f//rd3//63d//+t3f//rd3//63d//+t
+        3f//rd3//63d//+t3f//rd3//63d//+t3f//teD///7////////////////////a8P//2vD/////////
+        /////////73k//+t3f//rd3//63d//+t3f//rd3//63d//+t3f//rd3//63d//+t3f//rd3//63d//+t
+        3f//rd3//63d//+t3fX/s+YKAAAAAP9Agtz/QIL//0GCNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9BgEr/Qn7//0N+uAAAAAD/r9lJ/67Z//+u2f//rtn//67Z//+u
+        2f//rtn//67Z//+u2f//rtn//67Z//+u2f//rtn//67Z//+u2f//rtn//9Lq////////////////////
+        ////w+P//8Lj///////////////////d7///rtn//67Z//+u2f//rtn//67Z//+u2f//rtn//67Z//+u
+        2f//rtn//67Z//+u2f//rtn//67Z//+u2f//rtn//67aRQAAAAD/Q3+Z/0J+//9Dfm8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/Q3uF/0N7//9De4UAAAAA/7DVh/+v
+        1f//r9X//6/V//+v1f//r9X//6/V//+v1f//r9X//6/V//+v1f//r9X//6/V//+v1f//r9X//6/V///u
+        9v//////////////////+/3//7HW//+w1f//+fz/////////////+v3//7LX//+v1f//r9X//6/V//+v
+        1f//r9X//6/V//+v1f//r9X//6/V//+v1f//r9X//6/V//+v1f//r9X//6/V//+u1YUAAAAA/0R8Zf9D
+        e///Q3ukAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0R4pP9F
+        eP//RXhVAAAAAP+x0bP/sNH//7DR//+w0f//sNH//7DR//+w0f//sNH//7DR//+w0f//sNH//7DR//+w
+        0f//sNH//7DR//+71////////////////////////+Tv//+w0f//sNH//+Pv///////////////////P
+        4///sNH//7DR//+w0f//sNH//7DR//+w0f//sNH//7DR//+w0f//sNH//7DR//+w0f//sNH//7DR//+w
+        0f//r9GwAAAAAP9Hdjb/RXj//0R3zQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9GdcD/RnX//0R2OAAAAAD/sc3Y/7HN//+xzf//sc3//7HN//+xzf//sc3//7HN//+x
+        zf//sc3//7HN//+xzf//sc3//7HN//+xzf//1+X////////////////////////O3///sc3//7HN///M
+        3v//////////////////7/X//7HN//+xzf//sc3//7HN//+xzf//sc3//7HN//+xzf//sc3//7HN//+x
+        zf//sc3//7HN//+xzf//sc3//7LN1gAAAAD/RXYa/0Z1//9GdecAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/R3Lc/0dy//9Kcx8AAAAA/7LJ7f+yyf//ssn//7LJ//+y
+        yf//ssn//7LJ//+yyf//ssn//7LJ//+yyf//ssn//7LJ//+yyf//ssn///L2///////////////////+
+        ////uc7//7LJ//+yyf//t8z///3+//////////////////+80P//ssn//7LJ//+yyf//ssn//7LJ//+y
+        yf//ssn//7LJ//+yyf//ssn//7LJ//+yyf//ssn//7LJ//+yyesAAAAA/4CAAv9Hcvv/R3L+/0CABAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0lu6P9Jbv//SW0VAAAAAP+z
+        xvn/s8b//7PG//+zxv//s8b//7PG//+zxv//s8b//7PG//+zxv//s8b//7PG//+zxv//s8b//7bI////
+        ////////////////////7vL//7PG//+zxv//s8b//7PG///s8f//////////////////0dz//7PG//+z
+        xv//s8b//7PG//+zxv//s8b//7PG//+zxv//s8b//7PG//+zxv//s8b//7PG//+zxv//s8b4AAAAAAAA
+        AAD/SW72/0lu//9AYAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9K
+        a9//Smv//0ltFQAAAAD/s8L5/7PC//+zwv//s8L//7PC//+zwv//s8L//7PC//+zwv//s8L//7PC//+z
+        wv//s8L//7PC//+/zP///////////////////////9ff//+zwv//s8L//7PC//+zwv//1d3/////////
+        /////////+Xq//+zwv//s8L//7PC//+zwv//s8L//7PC//+zwv//s8L//7PC//+zwv//s8L//7PC//+z
+        wv//s8L//7PC+AAAAAAAAAAA/0pr9P9Ka///TWYKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/S2jW/0to//9NZh4AAAAA/7S+7f+0vv//tL7//7S+//+0vv//tL7//7S+//+0
+        vv//tL7//7S+//+0vv//tL7//7S+//+0vv//ztX////////////////////////Byf//tL7//7S+//+0
+        vv//tL7//7/H///////////////////5+f//tL7//7S+//+0vv//tL7//7S+//+0vv//tL7//7S+//+0
+        vv//tL7//7S+//+0vv//tL7//7S+//+0vusAAAAA/4CAAv9LaPv/S2j+/zNmBQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/01lzf9NZf//T2Y3AAAAAP+1utn/tbr//7W6//+1
+        uv//tbr//7W6//+1uv//tbr//7W6//+1uv//tbr//7W6//+1uv//tbr//+Hj///////////////////2
+        9///tbr//7W6//+1uv//tbr//7W6//+1uv//9PT//////////////////8LG//+1uv//tbr//7W6//+1
+        uv//tbr//7W6//+1uv//tbr//7W6//+1uv//tbr//7W6//+1uv//tbrXAAAAAP9NZhT/TWX//01k7AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9OYqr/TmL//05kUgAA
+        AAD/traz/7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2///1
+        9f//////////////////4eH//7a2//+2tv//trb//7a2//+2tv//trb//97e///////////////////W
+        1v//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7e3sAAA
+        AAD/UGAw/05i//9OYdQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/UF98/1Be//9QXoAAAAAA/7iyiP+3sv//t7L//7ey//+3sv//t7L//7ey//+3sv//t7L//7ey//+3
+        sv//t7L//7ey///Bvf///////////////////////8zI//+3sv//t7L//7ey//+3sv//t7L//7ey///J
+        xf//////////////////7ez//7ey//+3sv//t7L//7ey//+3sv//t7L//7ey//+3sv//t7L//7ey//+3
+        sv//t7L//7ey//+3s4YAAAAA/1FeX/9QXv//UF6pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/1FbTP9RW///UVu3AAAAAP+3rEr/uK7//7iu//+4rv//uK7//7iu//+4
+        rv//uK7//7iu//+4rv//uK7//7iu//+4rv//1tD///////////////////z8//+6sf//uK7//7iu//+4
+        rv//uK7//7iu//+4rv//ua////r5//////////////7+///At///uK7//7iu//+4rv//uK7//7iu//+4
+        rv//uK7//7iu//+4rv//uK7//7iu//+4rv//uq9GAAAAAP9RW5H/UVv//1FbeAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9OWBr/Ulj//1FY8f9JSQf/sbEN/7mq+P+5
+        qv//uar//7mq//+5qv//uar//7mq//+5qv//uar//7mq//+5qv//uar//+3p///////////////////p
+        5f//uar//7mq//+5qv//uar//7mq//+5qv//uar//7mq///m4f//////////////////18///7mq//+5
+        qv//uar//7mq//+5qv//uar//7mq//+5qv//uar//7mq//+5qv//uar2/7OzCgAAAAD/UljX/1JY//9U
+        WD0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/1RVz/9U
+        Vf//VVVIAAAAAP+6pqv/uqb//7qm//+6pv//uqb//7qm//+6pv//uqb//7qm//+6pv//uqb//7+t///+
+        /v//////////////////1cn//7qm//+6pv//uqb//7qm//+6pv//uqb//7qm//+6pv//0sX/////////
+        /////////+/q//+6pv//uqb//7qm//+6pv//uqb//7qm//+6pv//uqb//7qm//+6pv//uqb//7qmpwAA
+        AAD/V1cj/1RV//9UVe3/QEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9UUn//VVL//1RRnQAAAAD/vaFJ/7ui//+7ov//u6L//7ui//+7ov//u6L//7ui//+7
+        ov//u6L//7ui///Wxv///////////////////////8Ks//+7ov//u6L//7ui//+7ov//u6L//7ui//+7
+        ov//u6L//7+n///+/f//////////////////w63//7ui//+7ov//u6L//7ui//+7ov//u6L//7ui//+7
+        ov//u6L//7ui//+7okcAAAAA/1VTfv9VUv//VlKkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/U0wl/1ZO/f9WTvX/UVET////Af+8ntL/vJ7//7ye//+8
+        nv//vJ7//7ye//+8nv//vJ7//7ye//+8nv//7OT///////////////////Ls//+8nv//vJ7//7ye//+8
+        nv//vJ7//7ye//+8nv//vJ7//7ye//+8nv//7ub//////////////////9rJ//+8nv//vJ7//7ye//+8
+        nv//vJ7//7ye//+8nv//vJ7//7ye//+8ntD///8B/1VVA/9WTuL/Vk7//1ZOQQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9XS7X/WEv//1lMeQAA
+        AAD/vJtU/72a//+9mv//vZr//72a//+9mv//vZr//72a//+9mv//waH///39///////////////////h
+        0f//vZr//72a//+9mv//vZr//72a//+9mv//vZr//72a//+9mv//vZr//9rG///////////////////x
+        6f//vZr//72a//+9mv//vZr//72a//+9mv//vZr//72a//+9mv//vZpRAAAAAP9YSlr/WEv//1hL1/8A
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/WkdE/1lI//9ZSO7/VUcSAAAAAP+9l7z/vZb//72W//+9lv//vZb//72W//+9lv//vZb//9jC////
+        ////////////////////1r7//72W//+9lv//vZb//72W//+9lv//vZb//72W//+9lv//vZb//72W///G
+        pP///////////////////////8Wj//+9lv//vZb//72W//+9lv//vZb//72W//+9lv//vZW6AAAAAP9m
+        MwX/WEjb/1lI//9aSGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9aRbr/W0X//1tGjwAAAAD/wZEl/76S8/++kv//vpL//76S//++
+        kv//vpL//8GW///38f///////////////////////9a7//++kv//vpL//76S//++kv//vpL//76S//++
+        kv//vpL//76S//++kv//vpL///v5///////////////////cxP//vpL//76S//++kv//vpL//76S//++
+        kv//vpLx/72SIwAAAAD/W0Rw/1tF//9bRdb/VVUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/XEEv/1xC/P9cQvz/W0E7AAAAAP+/
+        jVf/v47//7+O//+/jv//v47//8SX///t3//////////////////////////////gyP//v47//7+O//+/
+        jv//v47//7+O//+/jv//v47//7+O//+/jv//v47//8OU///+/f//////////////////9u///8ie//+/
+        jv//v47//7+O//+/jv//v47//7+PWwAAAAD/XUYh/1xC9P9cQv//XUFKAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9d
+        PoT/XT7//10+3f9VRA8AAAAA/8GMh//Ai///wIv//8yg///9+///////////////////////////////
+        ////8+r//8CL///Ai///wIv//8CL///Ai///wIv//8CL///Ai///wIv//8CL///jzP//////////////
+        ///////////////8+f//17X//8CL///Ai///wIv//8GKgwAAAAD/VSsG/14+x/9dPv//XT2iAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/ZjMF/187zP9fO///Xzu5/0BABP///wH/wYeX/8GH///Bh///3Lv/////////
+        ///////////////////////////////Fj///wYf//8GH///Bh///wYf//8GH///Bh///wYf//8GH///B
+        h///4MP///////////////////////////////////Dj///Bh///wYf//8KGlv///wEAAAAA/187l/9f
+        O///Xjvg/2M5EgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9jOh//YDjo/2A4//9gOJz/gAAC////Af/B
+        g4D/woP//8KD///Cg///woP//8KD///Cg///woP//8KD///Cg///woP//8KD///Cg///woP//8KD///C
+        g///woP//8KD///Cg///woP//8KD///Cg///woP//8KD///Cg///woP//8KD///Cg///woP//8GDiP//
+        /wEAAAAA/2A3ff9gOP//YDj1/145MQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2A3OP9h
+        NfX/YTX//2E1oP9VVQMAAAAA/8J+U//EgPD/w3///8N////Df///w3///8N////Df///w3///8N////D
+        f///w3///8N////Df///w3///8N////Df///w3///8N////Df///w3///8N////Df///w3///8N////D
+        f///w4Dy/8SAWgAAAAAAAAAA/2E2e/9hNf//YTX8/2E0VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/ZDRA/2My8/9jMv//YzG1/2AwEAAAAAD/wXwl/8V7vP/Ee///xHv//8R7///E
+        e///xHv//8R7///Ee///xHv//8R7///Ee///xHv//8R7///Ee///xHv//8R7///Ee///xHv//8R7///E
+        e///xHv//8R7///Ee///xHu6/8Z4JAAAAAD/VSsG/2Mxlv9jMv//YzL8/2MzWgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9lLDr/ZC7q/2Qu//9jLtr/ZTA1AAAAAAAA
+        AAD/xnhV/8V30v/Fd///xXf//8V3///Fd///xXf//8V3///Fd///xXf//8V3///Fd///xXf//8V3///F
+        d///xXf//8V3///Fd///xXf//8V3///Fd9D/xHZSAAAAAAAAAAD/Ziwj/2Qtyv9kLv//ZC71/2QuVAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2MpH/9m
+        LM3/Ziv//2Yr/P9mLIz/YicNAAAAAP//AAH/x3NJ/8Z0qv/Gc/j/xnP//8Zz///Gc///xnP//8Zz///G
+        c///xnP//8Zz///Gc///xnP//8Zz///Gc///xnP3/8Zzqf/GcUj//wABAAAAAP9VKwb/Zit2/2Yr8v9m
+        K///Zivi/2QtMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/YCAI/2cniP9nKPv/Zyj//2go6v9mKXD/ZjMKAAAAAAAAAAD/v2oM/8huSv/H
+        b4j/x2+z/8hv2P/Hb+7/x2/6/8dv+v/Hb+7/x2/X/8dusv/Gb4f/x3BJ/79qDAAAAAAAAAAA/1UrBv9m
+        KF//Zijb/2co//9nKP//Zymj/2ktEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ZiQy/2glwv9oJf//aCX//2cl7/9p
+        JZL/aiY1/wAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/ZyYv/2kmgf9oJeb/aCX//2gl//9nJdT/ZyZKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/aSNJ/2oiw/9qIv//aiL//2oi//9qIub/ayGg/2kjbf9rIT7/ayEf/20kBwAAAAAAAAAA/2YzBf9t
+        JBz/aSA4/2ojZ/9qIp3/aiHd/2oi//9qIv//aiL//2oi0f9qI2D/VQADAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/aB0s/2oekP9rHt//ax7//2se//9rHv//ax7//2se//9r
+        Hv//ax7//2se//9rHv//ax7//2se//9rHv//ax7//2se//9rHuj/ax6b/2kcPwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2wcLf9s
+        G2j/bRqa/20bxv9tG+L/bRv5/20b//9tG///bRv7/20b5f9tG8n/bRui/24cbf9tHDb/gAACAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////////////////////////////////////////////////////////////gAH/
+        //////wAAD//////8AAAD//////AP/wD/////wGAAYD////+BAAAIH////wYAAAYP///+CAAAAQf///w
+        QAAAAg///+CAAAABB///wAAAAACD///CAAAAAEP//4QAAAAAIf//iAAAAAAQ//8IAAAAABD//xAAAAAA
+        CP/+AAAAAAAAf/4gAAAAAAR//iAAAAAABD/8AAAAAAACP/xAAAAAAAI//EAAAAAAAj/8QAAAAAACP/xA
+        AAAAAAI//EAAAAAAAh/8QAAAAAADH/xAAAAAAAMf/EAAAAAAAh/8QAAAAAACP/xAAAAAAAI//EAAAAAA
+        Aj/8QAAAAAACP/wAAAAAAAI//iAAAAAABD/+IAAAAAAEf/4AAAAAAAB//xAAAAAACH//CAAAAAAQ//+I
+        AAAAABD//4QAAAAAIf//wgAAAABD///AAAAAAEP//+AAAAAAh///8EAAAAMP///4IAAABB////wYAAAY
+        P////gQAACB/////AYABgP/////AP/4D//////ABgAf//////AAAP///////gAD/////////////////
+        //////////////////////////////////////////////////8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Клиент Valheim</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
